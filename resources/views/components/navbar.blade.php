@@ -20,7 +20,10 @@
             <a href="{{route('dashboard.index')}}" class="nav-link">Dashboard</a>
           </li>
           <li class="nav-item">
-            <a href="{{route('birth.index')}}" class="nav-link">Birth Certificate</a>
+            <a href="{{route('birth.index')}}" class="nav-link">Birth</a>
+          </li>
+          <li class="nav-item">
+            <a href="{{route('death.index')}}" class="nav-link">Death</a>
           </li>
         </ul>
 

@@ -6,12 +6,12 @@
         <div class="container">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0"> Birth Certificate</h1>
+                    <h1 class="m-0"> Birth</h1>
                 </div><!-- /.col -->
                 <div class="col-sm-6">
                     <ol class="breadcrumb float-sm-right">
                         <li class="breadcrumb-item"><a href="/dashboard">Dashboard</a></li>
-                        <li class="breadcrumb-item active">Birth Certificate</li>
+                        <li class="breadcrumb-item active">Birth</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
