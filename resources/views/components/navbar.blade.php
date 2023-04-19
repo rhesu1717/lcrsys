@@ -25,6 +25,9 @@
           <li class="nav-item">
             <a href="{{route('death.index')}}" class="nav-link">Death</a>
           </li>
+          <li class="nav-item">
+            <a href="{{route('marriage.index')}}" class="nav-link">Marriage</a>
+          </li>
         </ul>
 
       </div>

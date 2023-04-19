@@ -4,6 +4,7 @@ use App\Http\Controllers\Authentication\AuthenticateController;
 use App\Http\Controllers\BirthCertController;
 use App\Http\Controllers\DeathCertController;
 use App\Http\Controllers\Driver\DriverController;
+use App\Http\Controllers\MarriageController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -38,6 +39,7 @@ Route::middleware(['auth'])->group(function(){
 
     Route::resource('birth', BirthCertController::class);
     Route::resource('death', DeathCertController::class);
+    ROute::resource('marriage', MarriageController::class);
 
     Route::get('/logout', function(){
         Auth::logout();
